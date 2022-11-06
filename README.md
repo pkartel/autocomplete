@@ -10,3 +10,5 @@ $ cd ./autocomplete
 $ npm install
 $ npm start
 ```
+
+Then go to https://localhost:3000 and voilà!
