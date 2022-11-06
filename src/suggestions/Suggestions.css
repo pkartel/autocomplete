@@ -1,0 +1,36 @@
+.suggestions {
+    margin: 5% 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.suggestion {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    position: relative;
+
+    cursor: pointer;
+}
+
+.match {
+    background-color: cornsilk;
+}
+
+details {
+    width: 80%;
+    font-size: 0.9em;
+}
+
+summary, .recipe {
+    margin-top: 5px;
+}
+
+.picture {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 55px;
+    height: 55px;
+}
